@@ -2,8 +2,8 @@ package com.company;
 
 public class JackOLantern
 {
-    String[][] faceArray = new String [10][10];
-    public JackOLantern (String[][] faceArray)
+    String[][] faceArray;
+    public JackOLantern(String[][] faceArray)
     {
         this.faceArray = faceArray;
     }
