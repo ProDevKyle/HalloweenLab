@@ -4,7 +4,7 @@ public class Runner
 {
     public static void main(String[] args)
     {
-        String[][] face = {{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "},{"X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X ", "X "}};
+        String[][] face = {{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},{"O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O ", "O "},};
         JackOLantern lantern = new JackOLantern(face);
         //Eyes
         lantern.edit("- ", 1, 1);
